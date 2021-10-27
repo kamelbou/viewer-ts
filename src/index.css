@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+}
+
+.viewer {
+  display: 'flex';
+  flex-direction: column;
+}
+
+.toolbar {
+  display: 'flex';
+  flex-direction: row;
+}
+.toolbar > * {
+  margin: 8px;
+}
+
+.button {
+  width: 32px;
+  height: 32px;
+  vertical-align:top;
+}
+
+.background {
+  position: absolute;
+  width: 512px;
+  height: 512px;
+}
+
+.overlay {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 512px;
+  height: 512px;
+}
